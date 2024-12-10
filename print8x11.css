@@ -1,0 +1,116 @@
+.container {
+  width: 826px;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.contenu_en-tete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.en-tete1 span {
+  display: block;
+  text-align: center;
+  padding: 2px;
+}
+
+.en-tete1 {
+  margin-right: 3rem;
+  margin-left: 8rem;
+}
+
+.en-tete2 {
+  margin-top: 5px;
+}
+
+.en-tete2 div {
+  font-weight: bold;
+}
+
+.billToflex {
+  display: flex;
+}
+.en-tete2 div span {
+  font-weight: normal;
+}
+
+.billToflex {
+  font-weight: 600;
+}
+
+.billToflex span {
+  display: block;
+}
+
+.billToflex #font {
+  font-weight: 100;
+  margin-left: 4rem;
+}
+
+.table1 th {
+  font-weight: 100;
+}
+
+.table1 {
+  border-bottom: 1.5px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.column3 {
+  width: 10%;
+}
+
+.column4 {
+  width: 26%;
+}
+
+.column1 {
+  width: 5%;
+}
+
+.column2 {
+  width: 12%;
+}
+
+th {
+  border-bottom: 1.5px solid black;
+}
+
+td,
+th {
+  padding: 5px;
+  text-align: start;
+}
+
+.border {
+  width: 100%;
+  border-bottom: 1.5px solid black;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.contenu-discount {
+  display: block;
+  margin-top: 8px;
+  text-align: right;
+}
+
+.contenu-discount div {
+  padding: 2px;
+}
+
+.disc {
+  margin-right: 6rem;
+}
+
+#disc {
+  margin-right: 4rem;
+}

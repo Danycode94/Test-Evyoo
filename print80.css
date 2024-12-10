@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 310px;
+  text-align: start;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenu_enTete_80 {
+  text-align: center;
+}
+
+.contenu_enTete_80 span {
+  display: block;
+  padding: 4px 0px;
+}
+
+.contenu_enTete_80 .styleiItalic {
+  font-style: italic;
+}
+
+.enTete_80 #quote {
+  font-size: 18px;
+}
+
+.font9 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.enTete_80 div {
+  font-weight: 550;
+  padding: 4px 5px;
+  /* margin: 2px ; */
+}
+
+.enTete_80 div span {
+  font-weight: 100;
+}
+
+.customer {
+  padding: 10px 15px 0;
+}
+
+.customer div {
+  padding: 4px 0px;
+}
+
+.billTo_80 div {
+  font-weight: 550;
+  padding: 5px 5px 0;
+}
+
+.billTo_80 div:nth-child(2) {
+  margin-top: 2.3rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+}
+
+th,
+td {
+  text-align: start;
+}
+
+td {
+  padding: 3px;
+}
+
+.contenu-discount div {
+  padding: 5px 0px;
+}
+
+.disc {
+  padding-left: 9rem;
+}
+
+.disc2 {
+  margin-right: 5px;
+}
+
+.border {
+  width: 100%;
+  border-bottom: 1.5px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+@media print {
+  @page {
+    margin: 15px;
+    size: auto;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
